@@ -29,6 +29,7 @@ ALLOWED_HOSTS = ['*']
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",  # React app URL
+    "https://task-manager-fe-lake.vercel.app/"
 ]
 
 REST_FRAMEWORK = {
